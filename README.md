@@ -1,5 +1,5 @@
 <p align="center">
- <img width="75%" src="https://raw.githubusercontent.com/Decybel07/L10n-swift/master/Images/Logo.png" alt="L10n-swift"/>
+ <img width="75%" src="https://raw.githubusercontent.com/whiteHatCip/L10n-swift/master/Images/Logo.png" alt="L10n-swift"/>
 </p>
 
 
@@ -34,9 +34,9 @@ L10n-swift is a simple framework that improves localization in swift app, provid
 - [x] Change the language of your apps "on the fly".
 - [x] IBInspectable for Xcode Interface Builder (Cocoa - coming soon).
 - [x] Support for user-defined `Localizable` file names.
-- [x] Support for formats: [`*.plist`](https://github.com/Decybel07/L10n-swift/wiki/*.plist), [`*.json`](https://github.com/Decybel07/L10n-swift/wiki/*.json), [`*.stringsdict`](https://github.com/Decybel07/L10n-swift/wiki/*.stringsdict), [`*.strings`](https://github.com/Decybel07/L10n-swift/wiki/*.strings).
+- [x] Support for formats: [`*.plist`](https://github.com/whiteHatCip/L10n-swift/wiki/*.plist), [`*.json`](https://github.com/whiteHatCip/L10n-swift/wiki/*.json), [`*.stringsdict`](https://github.com/whiteHatCip/L10n-swift/wiki/*.stringsdict), [`*.strings`](https://github.com/whiteHatCip/L10n-swift/wiki/*.strings).
 - [x] Support for grouping localization keys.
-- [x] Support for [**plural**](https://github.com/Decybel07/L10n-swift/wiki/Plural) forms in any language with multiple arguments.
+- [x] Support for [**plural**](https://github.com/whiteHatCip/L10n-swift/wiki/Plural) forms in any language with multiple arguments.
 - [x] Support for pseudo-languages: `NonLocalized`, `DoubleLength`, `Accented`, `Bounded`, `ForcedRightToLeft`.
 - [x] Use `.l10n()` to localize any string, date and numbers.
 - [x] Use more than one language at the same time.
@@ -77,13 +77,13 @@ pod try L10n-swift
 ### [Carthage](https://github.com/Carthage/Carthage)
 
 ```ogdl
-github "Decybel07/L10n-swift", ~> 5.10
+github "whiteHatCip/L10n-swift", ~> 5.10
 ```
 
 ### [Swift Package Manager](https://swift.org/package-manager/)
 
 ```swift
-.Package(url: "https://github.com/Decybel07/L10n-swift.git", majorVersion: 5)
+.Package(url: "https://github.com/whiteHatCip/L10n-swift.git", majorVersion: 5)
 ```
 
 ## 📘 [Usage](http://cocoadocs.org/docsets/L10n-swift/)
@@ -131,7 +131,7 @@ Add `.l10nPlural(CVarArg...)` following any `String` object you want translated 
  ```swift
  "numberOfApples".l10nPlural(2)
  ```
- More about plurals, you can read on [**wiki**](https://github.com/Decybel07/L10n-swift/wiki/Plural)
+ More about plurals, you can read on [**wiki**](https://github.com/whiteHatCip/L10n-swift/wiki/Plural)
  
 ### Observe language changed
 
@@ -178,28 +178,28 @@ Add `.l10nPlural(CVarArg...)` following any `String` object you want translated 
 
 ### Supported formats
 #### .plist, .stringsdict
-<img src="https://raw.githubusercontent.com/Decybel07/L10n-swift/master/Images/sample_plist_file.png" alt="Sample .plist and .stringsdict file" width="597" style="max-width:100%;"/>
+<img src="https://raw.githubusercontent.com/whiteHatCip/L10n-swift/master/Images/sample_plist_file.png" alt="Sample .plist and .stringsdict file" width="597" style="max-width:100%;"/>
 
- More about **.plist** format you can read on [**wiki**](https://github.com/Decybel07/L10n-swift/wiki/*.plist).
+ More about **.plist** format you can read on [**wiki**](https://github.com/whiteHatCip/L10n-swift/wiki/*.plist).
  
- More about **.stringsdict** format you can read on [**wiki**](https://github.com/Decybel07/L10n-swift/wiki/*.stringsdict).
+ More about **.stringsdict** format you can read on [**wiki**](https://github.com/whiteHatCip/L10n-swift/wiki/*.stringsdict).
  
  #### .json
- <img src="https://raw.githubusercontent.com/Decybel07/L10n-swift/master/Images/sample_json_file.png" alt="Sample .json file" width="554" style="max-width:100%;"/>
+ <img src="https://raw.githubusercontent.com/whiteHatCip/L10n-swift/master/Images/sample_json_file.png" alt="Sample .json file" width="554" style="max-width:100%;"/>
  
- More about **.json** format you can read on [**wiki**](https://github.com/Decybel07/L10n-swift/wiki/*.json).
+ More about **.json** format you can read on [**wiki**](https://github.com/whiteHatCip/L10n-swift/wiki/*.json).
  
  #### .strings
- <img src="https://raw.githubusercontent.com/Decybel07/L10n-swift/master/Images/sample_strings_file.png" alt="Sample .strings file" width="544" style="max-width:100%;"/>
+ <img src="https://raw.githubusercontent.com/whiteHatCip/L10n-swift/master/Images/sample_strings_file.png" alt="Sample .strings file" width="544" style="max-width:100%;"/>
  
- More about **.strings** format you can read on [**wiki**](https://github.com/Decybel07/L10n-swift/wiki/*.strings).
+ More about **.strings** format you can read on [**wiki**](https://github.com/whiteHatCip/L10n-swift/wiki/*.strings).
 
-## 📙 [FAQ](https://github.com/Decybel07/L10n-swift/wiki/FAQ)
+## 📙 [FAQ](https://github.com/whiteHatCip/L10n-swift/wiki/FAQ)
 
 ## 🤓 Author
 
-Adrian Bobrowski ([Decybel07](https://github.com/Decybel07)), adrian071993@gmail.com
+Adrian Bobrowski ([whiteHatCip](https://github.com/Decybel07)), adrian071993@gmail.com
 
 ## 🔑 License
 
-L10n-swift is available under the MIT license. See the [LICENSE](https://github.com/Decybel07/L10n-swift/blob/master/LICENSE) file for more info.
+L10n-swift is available under the MIT license. See the [LICENSE](https://github.com/whiteHatCip/L10n-swift/blob/master/LICENSE) file for more info.
